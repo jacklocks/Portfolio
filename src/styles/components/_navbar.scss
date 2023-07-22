@@ -1,0 +1,132 @@
+/* Navbar component styles */
+.main {
+  & .menu-hamburger {
+    display: none; /* Initially hide the hamburger icon */
+
+    /* Show the hamburger icon only on smaller screens */
+    @media screen and (max-width: 700px) {
+      display: block;
+      position: absolute;
+      font-size: 25px;
+      top: 15px;
+      right: 120px;
+      cursor: pointer;
+      color: $color2;
+    }
+  }
+
+  & .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    background-color: $color1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    &.navbar-visible {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+
+    &.navbar-hidden {
+      opacity: 0;
+      transform: translateY(-100%);
+      transition: opacity 0.3s, transform 0.3s;
+    }
+
+    & .imgprofil {
+      border-radius: 10px;
+      height: 100px;
+      width: 100px;
+      margin: 10px;
+      position: absolute;
+      left: 0;
+      z-index: 1;
+    }
+
+    & .link-social {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 20%;
+
+      & img {
+        width: 20px;
+        margin: 0 15px;
+      }
+    }
+
+    .link {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      font-weight: bold;
+
+      & .navbar-link {
+        list-style-type: none;
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        font-family: $font;
+        letter-spacing: 3px;
+
+        & a {
+          text-decoration: none;
+          color: $color2;
+          transition: 0.5s;
+
+          &:hover {
+            transform: scale(1.2);
+            transition: 0.5s;
+          }
+        }
+      }
+      /* Styles for the hamburger menu */
+      @media screen and (max-width: 700px) {
+        /* Hide the navbar links when the menu is closed */
+        .navbar-link {
+          display: none;
+        }
+
+        /* Show the navbar links when the menu is open */
+        &.show-menu .navbar-link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: $color1;
+          position: absolute;
+          top: 60px;
+          right: 0;
+          width: 100%;
+          height: 200px;
+          overflow: hidden;
+          transition: height 0.3s;
+
+          & a {
+            /* Adjust styles for the menu links here */
+            text-decoration: none;
+            color: $color2; /* Example: keep the same color as before */
+            transition: 0.5s;
+
+            &:hover {
+              transform: scale(1.2);
+              transition: 0.5s;
+            }
+          }
+        }
+
+        /* Adjust the height of the menu to fit the links */
+        &.show-menu {
+          height: 200px;
+        }
+      }
+    }
+  }
+}

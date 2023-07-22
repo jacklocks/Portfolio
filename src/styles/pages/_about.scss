@@ -1,0 +1,70 @@
+.main-about {
+  margin-top: 100px;
+  & .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h2 {
+      margin-top: 50px;
+      font-family: $font;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-bottom: 50px;
+      color: $color2;
+    }
+    & .about-text {
+      width: 55%;
+      text-align: center;
+      font-family: $font;
+      letter-spacing: 1px;
+      line-height: 25px;
+      background: $color1;
+      padding: 50px;
+      border-radius: 10px;
+    }
+    & .skills {
+      width: 55%;
+      text-align: center;
+      background: $color1;
+      border-radius: 10px;
+      padding: 20px;
+      text-transform: uppercase;
+      line-height: 30px;
+      font-family: $font;
+      letter-spacing: 1px;
+      & li {
+        list-style-type: none;
+      }
+    }
+    & .certification {
+      width: 55%;
+      text-align: center;
+      background: $color1;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 100px;
+      & img {
+        width: 70%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-about {
+    & .about-container {
+      & .about-text {
+        width: 90%;
+        font-size: 0.8rem;
+      }
+      & .skills {
+        width: 90%;
+        font-size: 0.8rem;
+      }
+      & .certification {
+        width: 90%;
+      }
+    }
+  }
+}

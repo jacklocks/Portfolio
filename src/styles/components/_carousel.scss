@@ -1,0 +1,11 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & .arrow {
+        color:$color1;
+        width: 150px;
+        cursor: pointer;
+    }
+}

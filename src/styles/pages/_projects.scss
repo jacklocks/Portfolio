@@ -1,0 +1,148 @@
+.main-projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  & .projects-container {
+    width: 80%;
+    & .trox-container {
+      margin-bottom: 150px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+        ". to"
+        "im to"
+        "im te "
+        ". te";
+      gap: 30px;
+      & .img-trox {
+        grid-area: im;
+        margin: auto;
+        & img {
+          width: 100%;
+        }
+      }
+      & .top-trox {
+        grid-area: to;
+        background: #ff7d66;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+
+        & p {
+          margin: 20px;
+          font-family: $font;
+          letter-spacing: 1px;
+          line-height: 2rem;
+        }
+      }
+      & .tech-trox {
+        grid-area: te;
+        text-align: center;
+        background: #b8d6dd;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        & h2 {
+          margin: 20px;
+          text-transform: uppercase;
+        }
+        & li {
+          list-style-type: none;
+          margin: 20px;
+          font-size: 1.1rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+    & .sound-container {
+      margin-bottom: 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+        "to ."
+        "to im"
+        "te im"
+        "te .";
+      gap: 30px;
+      & .img-sound {
+        grid-area: im;
+        margin: auto;
+        & img {
+          width: 100%;
+        }
+      }
+      & .top-sound {
+        grid-area: to;
+        background: #ffde5c;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        & p {
+          margin: 20px;
+          font-family: $font;
+          letter-spacing: 1px;
+          line-height: 2rem;
+        }
+      }
+      & .tech-sound {
+        grid-area: te;
+        text-align: center;
+        background: #b8d6dd;
+        width: 100%;
+        border-radius: 10px;
+        text-transform: uppercase;
+        & h2 {
+          margin: 20px;
+          text-transform: uppercase;
+        }
+        & li {
+          list-style-type: none;
+          margin: 15px;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .top-trox {
+    font-size: 0.7rem;
+  }
+  .tech-trox {
+    font-size: 0.7rem;
+  }
+  .top-sound {
+    font-size: 0.7rem;
+  }
+  .tech-sound {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-projects {
+    & .projects-container {
+      & .trox-container {
+        display: block;
+        & img {
+          margin: 25px 0 25px 0;
+        }
+        & .tech-trox {
+          padding: 10px;
+        }
+      }
+      & .sound-container {
+        display: block;
+        & img {
+          margin: 25px 0 25px 0;
+        }
+        & .tech-sound {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

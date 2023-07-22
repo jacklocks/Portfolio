@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "title";
+  src: url("../assets/fonts/Oswald-Regular.ttf");
+}
+
+$font: "title";
+
+$color1:#39c4db;
+$color2: #324b50;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  background: url("../assets/img/background.webp") center/cover;
+  user-select: none;
+  font-size: 1em;
+}

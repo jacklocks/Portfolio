@@ -1,0 +1,41 @@
+.main-contact {
+  & .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h2 {
+      margin-top: 150px;
+      font-family: $font;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-bottom: 50px;
+      color: $color2;
+    }
+    & .contact-text {
+      width: 40%;
+      text-align: center;
+      font-family: $font;
+      letter-spacing: 1px;
+      line-height: 25px;
+      background: $color1;
+      padding: 25px;
+      border-radius: 10px;
+      & a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+    .main-contact {
+        & .contact-container {
+            & .contact-text {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        
+        }
+    }
+}
