@@ -1,14 +1,21 @@
 .header {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-   
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 .header-container {
-    width: 65%;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        height: 60vh;
+ & .header-container {
+    width: 100%;
+  }
+}
 }
