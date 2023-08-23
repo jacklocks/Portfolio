@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import item1 from "../assets/img/trox.webp";
 import item2 from "../assets/img/soundspectrum.webp";
+import item3 from "../assets/img/ess.webp";
 
 const Projects = () => {
   return (
@@ -30,7 +31,7 @@ const Projects = () => {
               </p>
             </div>
             <div className="img-trox">
-              <img src={item1} alt="image page d'accueil Trox" />
+              <img src={item1} alt="page d'accueil Trox" />
             </div>
             <div className="tech-trox">
               <h2>technologies utilisées</h2>
@@ -62,9 +63,16 @@ const Projects = () => {
                 créer leur propre ambiance en sélectionnant des stations
                 adaptées à leurs goûts.
               </p>
+              <a
+                href="https://soundspectrum.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visiter le site
+              </a>
             </div>
             <div className="img-sound">
-              <img src={item2} alt="image page d'accueil Sound Spectrum" />
+              <img src={item2} alt="page d'accueil Sound Spectrum" />
             </div>
             <div className="tech-sound">
               <h2>technologies utilisées</h2>
@@ -72,10 +80,48 @@ const Projects = () => {
                 <li>Figma</li>
                 <li>API Rails</li>
                 <li>Réact</li>
-                <li>Sass</li>
+                <li>Scss</li>
                 <li>Github</li>
                 <li>Heroku</li>
                 <li>Netlify</li>
+              </ul>
+            </div>
+          </div>
+          <div className="ess-container">
+            <div className="top-ess">
+              <p>
+                Mon dernier projet de site vitrine dédié aux salons de coiffure
+                démontre mon savoir-faire en matière de conception web pour
+                l'industrie de la beauté. À travers un design épuré et raffiné,
+                ce site met en lumière les services offerts par les salons de
+                coiffure avec des galeries visuelles qui illustrent les
+                compétences de l'équipe. Les informations détaillées sur les
+                prestations assurent une communication transparente, tandis
+                qu'un formulaire de contact facile d'utilisation encourage
+                l'engagement des visiteurs. L'élégance du design et la
+                présentation professionnelle font de ce site un outil efficace
+                pour attirer de nouveaux clients et renforcer la réputation des
+                salons de coiffure.
+              </p>
+              <a
+                href="https://hairstyle-ten.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visiter le site
+              </a>
+            </div>
+            <div className="img-ess">
+              <img src={item3} alt="page d'accueil L'essence Du Chic" />
+            </div>
+            <div className="tech-ess">
+              <h2>technologies utilisées</h2>
+              <ul>
+                <li>Figma</li>
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>Github</li>
+                <li>Vercel</li>
               </ul>
             </div>
           </div>
