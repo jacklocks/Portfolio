@@ -8,7 +8,7 @@ const About = () => {
       <Navbar />
       <div className="main-about">
         <div className="about-container">
-          <h2>à propos de moi</h2>
+          <h1>à propos de moi</h1>
           <div className="about-text">
             <p>
               Je m'appelle Éric Castets et je suis un développeur web avec une
@@ -42,18 +42,18 @@ const About = () => {
               équipes dynamiques pour façonner l'avenir du développement web.
             </p>
           </div>
-          <h2>mes compétences</h2>
+          <h1>mes compétences</h1>
           <div className="skills">
             <ul>
               <li>figma</li>
               <li>ruby, ruby on rails</li>
               <li>javascript, réact</li>
-              <li>css, sass</li>
+              <li>css, scss</li>
               <li>github</li>
               <li>postgresql</li>
             </ul>
           </div>
-          <h2>mes certifications</h2>
+          <h1>mes certifications</h1>
           <div className="certification">
             <img src={item3} alt="rncp" />
           </div>

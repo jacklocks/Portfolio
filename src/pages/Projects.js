@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <>
       <Navbar />
-      <div className="main-projects">
+      <section className="main-projects">
         <div className="projects-container">
           <div className="trox-container">
             <div className="top-trox">
@@ -118,15 +118,16 @@ const Projects = () => {
               <h2>technologies utilisées</h2>
               <ul>
                 <li>Figma</li>
-                <li>HTML</li>
-                <li>SCSS</li>
+                <li>html</li>
+                <li>scss</li>
+                <li>javascript</li>
                 <li>Github</li>
                 <li>Vercel</li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
