@@ -80,7 +80,7 @@ const Projects = () => {
                 <li>Figma</li>
                 <li>API Rails</li>
                 <li>Réact</li>
-                <li>Scss</li>
+                <li>sass</li>
                 <li>Github</li>
                 <li>Heroku</li>
                 <li>Netlify</li>
@@ -119,7 +119,7 @@ const Projects = () => {
               <ul>
                 <li>Figma</li>
                 <li>html</li>
-                <li>scss</li>
+                <li>sass</li>
                 <li>javascript</li>
                 <li>Github</li>
                 <li>Vercel</li>
