@@ -47,9 +47,10 @@ const About = () => {
             <ul>
               <li>figma</li>
               <li>ruby, ruby on rails</li>
-              <li>javascript, réact</li>
+              <li>javascript, réact, nextjs</li>
               <li>css, sass</li>
               <li>github</li>
+              <li>mongodb</li>
               <li>postgresql</li>
             </ul>
           </div>

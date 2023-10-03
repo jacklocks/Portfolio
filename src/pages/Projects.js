@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import item1 from "../assets/img/trox.webp";
 import item2 from "../assets/img/soundspectrum.webp";
 import item3 from "../assets/img/ess.webp";
+import item4 from "../assets/img/speaker.webp";
 
 const Projects = () => {
   return (
@@ -121,6 +122,35 @@ const Projects = () => {
                 <li>html</li>
                 <li>sass</li>
                 <li>javascript</li>
+                <li>Github</li>
+                <li>Vercel</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="speak-container">
+            <div className="top-speak">
+              <p>
+              Speaker's Corner une application de réseau social complète développée en utilisant Next.js et offrant aux utilisateurs une expérience similaire à Twitter. Mon projet comprend des fonctionnalités telles que l'inscription, la connexion sécurisée, la publication de tweets, les commentaires interactifs sur les messages d'autres utilisateurs, la possibilité de modifier et de supprimer ses propres publications, ainsi qu'une fonctionnalité de gestion de profil flexible. Cette plateforme permet aux utilisateurs de partager leurs pensées, de s'engager avec la communauté et de personnaliser leur présence en ligne.
+              </p>
+              <a
+                href="https://speakers-corner.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visiter le site
+              </a>
+            </div>
+            <div className="img-speak">
+              <img src={item4} alt="page d'accueil Speaker's Corner" />
+            </div>
+            <div className="tech-speak">
+              <h2>technologies utilisées</h2>
+              <ul>
+                <li>html</li>
+                <li>sass</li>
+                <li>mongoDB</li>
+                <li>nextjs</li>
                 <li>Github</li>
                 <li>Vercel</li>
               </ul>

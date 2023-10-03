@@ -2,11 +2,12 @@ import { useState } from "react";
 import CarouselItem1 from "./CarouselItem1";
 import CarouselItem2 from "./CarouselItem2";
 import CarouselItem3 from "./CarouselItem3";
+import CarouselItem4 from "./CarouselItem4";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 
 const Carousel = () => {
   const [index, setIndex] = useState(0);
-  const length = 3;
+  const length = 4;
 
   const handlePrevious = () => {
     const newIndex = index - 1;
@@ -28,6 +29,7 @@ const Carousel = () => {
       {index === 0 && <CarouselItem1 />}
       {index === 1 && <CarouselItem2 />}
       {index === 2 && <CarouselItem3 />}
+      {index === 3 && <CarouselItem4 />}
       <IconChevronRight
         className="arrow"
         size={96}
