@@ -11,33 +11,25 @@ const About = () => {
           <h1>à propos de moi</h1>
           <div className="about-text">
             <p>
-              Je m'appelle Éric Castets et je suis un développeur web avec une
-              riche expérience professionnelle couvrant divers domaines tels que
-              l'exploitation ostréicole, le diagnostic immobilier et
-              l'électricité dans le bâtiment, j'ai entrepris un parcours de
-              reconversion passionnant pour devenir développeur web.
+              Je m'appelle Éric Castets, et ma carrière professionnelle est un
+              parcours diversifié qui m'a conduit à une passionnante reconversion
+              en tant que développeur web. À l'âge de 48 ans, j'ai relevé le
+              défi d'un bootcamp intensif de 8 mois chez The Hacking Project, où
+              j'ai acquis des compétences avancées en développement web,
+              obtenant le niveau 5 du RNCP en tant que développeur web.
               <br />
-              À l'âge de 48 ans, j'ai relevé le défi d'un bootcamp intensif de 8
-              mois chez The Hacking Project, où j'ai acquis des compétences
-              avancées en développement web, me permettant d'atteindre le niveau
-              5 du RNCP en tant que développeur web.
+              Fort de ces compétences techniques fraîchement acquises, j'ai
+              découvert ma véritable passion dans le développement web et la
+              création d'applications. Mon parcours atypique témoigne de mon
+              engagement, ma persévérance et ma capacité d'adaptation face aux
+              défis. Aujourd'hui, je suis prêt à mettre en valeur ma polyvalence
+              et mon expertise à travers des projets innovants.
               <br />
-              Fort de ces nouvelles compétences techniques, j'ai découvert ma
-              véritable passion dans le développement web et la création
-              d'applications.
-              <br />
-              Mon parcours atypique démontre mon engagement, ma persévérance et
-              ma capacité d'adaptation face aux défis. Je suis désormais prêt à
-              mettre en valeur ma polyvalence et mon expertise à travers des
-              projets innovants.
-              <br />
-              Mon portfolio témoigne de mon évolution professionnelle, mettant
-              en évidence ma capacité à résoudre des problèmes complexes, à
-              créer des applications interactives et à développer des solutions
-              sur mesure.
-              <br />
-              Avec ma solide expérience entrepreneuriale et mes compétences
-              techniques fraîchement acquises, je suis enthousiaste à l'idée de
+              Mon portfolio reflète ma progression professionnelle, mettant en
+              lumière ma capacité à résoudre des problèmes complexes, à créer
+              des applications interactives et à développer des solutions sur
+              mesure. Avec ma solide expérience entrepreneuriale et mes
+              compétences techniques, je suis enthousiaste à l'idée de
               contribuer à des projets passionnants et de collaborer avec des
               équipes dynamiques pour façonner l'avenir du développement web.
             </p>
