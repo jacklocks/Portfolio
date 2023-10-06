@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import item3 from "../assets/img/rncp34779bc02.webp";
+import degree from "../assets/img/rncp-34779.webp";
 
 const About = () => {
   return (
@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <h1>mes certifications</h1>
           <div className="certification">
-            <img src={item3} alt="rncp" />
+            <img src={degree} alt="rncp-34779" />
           </div>
         </div>
       </div>
